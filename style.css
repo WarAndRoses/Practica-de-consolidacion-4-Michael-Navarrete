@@ -1,0 +1,105 @@
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px;
+  background-image: url(img/bgimg2.jpg);
+  background-size :cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: yellow;
+}
+
+.section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  color: yellow;
+
+}
+
+
+
+.cajasPjs {
+  background-color: #fff;
+  border: 1px solid #3f1b1b;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  background-image: url(img/img3.jpg);
+  height: 100px;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Para que los elementos hijos se apilen verticalmente */
+}
+
+.cajasPjs:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cajasPjs h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(252, 230, 33, 0.959);
+}
+
+.cajasPjs p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #be0d0d;
+}
+
+.mostrador1 {
+width: 650px;
+border: solid 1px;
+height: 500px;
+}
+
+.boton-yoda {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  background-image: url(img/yoda.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.botonConsejos{
+  padding-top: 50px;
+  display: flex;
+  gap: 80px;
+}
+
+#refranes {
+  height: 200px;
+  width: 400px;
+  padding-top: 50px;
+}
+
+.consejo{
+  height: 300px;
+  width: 200px;
+  padding-top: 50px;
+}
+
+.consejo, #refranes {
+  display: inline-block;
+  color: yellow;
+}
+
